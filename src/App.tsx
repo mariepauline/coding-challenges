@@ -1,4 +1,4 @@
-import StarRating from './challenges/star-rating'
+import StarRating from './challenges/star-rating/star-rating'
 
 function App() {
 
