@@ -1,0 +1,6 @@
+.tag {
+  color: var(--text-headings);
+  font-weight: 600;
+  background-color: var(--color-background);
+  padding: 0.25rem 0.5rem;
+}

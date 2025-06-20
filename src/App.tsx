@@ -1,12 +1,24 @@
 import { Link } from 'react-router';
+import Card from './components/card/card';
 
 function App() {
   return (
     <>
       <div>
         <h1>This is my challenge hub!</h1>
-        <p>Click the links to see the different challenges I've done</p>
-        <Link to="/challenge/star-rating">Star Rating Challenge</Link>
+        <div className="cards">
+          <Card
+            header="Star Rating"
+            subheader="FrontendPro Challenge"
+            link="/challenge/star-rating"
+            tags={['React', 'CSS']}
+          >
+            <p>
+              This challenge involved creating a star rating component that
+              allows users to rate items on a scale of 1 to 5 stars.
+            </p>
+          </Card>
+        </div>
       </div>
     </>
   );
