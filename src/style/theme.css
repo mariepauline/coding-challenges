@@ -1,0 +1,12 @@
+:root {
+  --color-background: #fffffe;
+  --color-background-highlight: #f2f4f6;
+  --color-text-headings: #00214d;
+  --color-text: #1b2d45;
+  --color-stroke: #00214d;
+  --color-green: #00ebc7;
+  --color-pink: #ff5470;
+  --color-yellow: #fde24f;
+
+  --border-default: 3px solid var(--color-stroke);
+}
